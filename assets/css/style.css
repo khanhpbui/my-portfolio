@@ -113,33 +113,38 @@ main section {
     text-align: center;
     color: var(--white);
     padding: 1rem;
-    width: 100%
+    width: 80%
 }
-
-.first-image img {
-    border: black solid 4px;
-    width: 200%;
-    margin: 1rem;
-}
-
 
 .first-image img,
 .other-images img {
-    text-align: center;
     border: black solid 4px;
-    width: 80%;
+    width: 45%;
     margin: 1rem;
     padding: 0
 }
-
+div.first-image img {
+    border: black solid 4px;
+    width: 50%;
+    margin: 1rem;
+}
+.other-images {
+    display: flex;
+}
 figcaption {
     text-align: center;
     background-color: black;
     text-decoration: none;
     color: var(--white);
     margin: 5px;
+    padding: 1rem;
 }
-
+figure {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 a {
     text-decoration: none;
 }
@@ -212,6 +217,7 @@ footer p {
     main section div.content {
         margin: auto;
         padding: 1rem;
+        padding-bottom: 5rem;
         display: flex;
         align-items: center;
         
