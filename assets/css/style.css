@@ -191,6 +191,13 @@ footer p {
         margin: 0;
         padding: 0;
     }
+    header, .welcome, .nav-bar, main section, section div {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 1rem 0 1rem;
+        flex: 100%;
+    }
 }
 
 @media screen and (max-width: 820px) {
