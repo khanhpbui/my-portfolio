@@ -2,7 +2,7 @@
 
 ## Description
 
-I created this project to show my skills and talents to prospective employer. My ski
+I created this project to show my skills and talents to prospective employer.
 This project is created to be presented to my prospective employer. It can show the skills that I have recently learned: flexbox, media queries, and CSS variables.
 
 
