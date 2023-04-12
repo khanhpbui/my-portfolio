@@ -10,8 +10,9 @@
 - [Link](#link)
 - [Contact](#contact)
 
-I created this project to show my skills and talents to prospective employer. My ski
-This project is created to be presented to my prospective employer. It can show the skills that I have recently learned: flexbox, media queries, and CSS variables.
+## Description:
+---
+The purpose of this project is to showcase my skills and abilities to potential employers. Specifically, it demonstrates my proficiency in utilizing flexbox, media queries, and CSS variables, which are recent additions to my skill set. Furthermore, the project was developed using a mobile-first design approach and is fully responsive.
 
 
 ## Installation:
@@ -38,22 +39,8 @@ The website comprises four main sections, namely About Me, Work, Contact Me, and
 ---
 N/A
 
-## License
-
-N/A
-
-## Badges
-
-N/A
-
-## Features
-
-N/A
-
-## How to Contribute
-
-N/A
-
-## Tests
-
-N/A
+## Contact
+---
+If there are any questions or concerns, please contact me at:<br>
+[GitHub](https://github.com/khanhpbui)<br>
+[Email](mailto:pkkhanhbui@gmail.com)
