@@ -37,7 +37,7 @@ The website comprises four main sections, namely About Me, Work, Contact Me, and
 
 ## Link
 ---
-N/A
+[Click Here](https://khanhpbui.github.io/my-portfolio/)
 
 ## Contact
 ---
