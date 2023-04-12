@@ -1,124 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Khanh Bui - My Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Khanh Bui</h1>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
-        </nav>
+      <nav class="nav-bar">
+        <img src="./assets/images/logo.png" alt="" />
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="welcome">
-        <div class="my-photo">
-            <img src="./assets/images/my-photo.jpg" alt="a picture of myself">
-        </div>
-        <h2>Welcome to my<br>PORTFOLIO!<br><span class="heart"></span></h2>
-    </section>
+
     <main>
-        <section id="about-me">
-            <h3>About Me</h3>
-            <div class="content">
-                <p>Creative and enthusiastic developer with prior experience in customer service and sales. Team work
-                    makes the dream work, so I am here to contribute to drive to the team's success. I have developed &
-                    honed my skills with a certificate in full-stack development from Georgia Institute of Technology.
-                    Through this experience I have mastered HTML, CSS, JavaScript, Python, SQL, Node.js, Axios . I often
-                    find myself to be tenacious, self-driven and enjoy the challenges of complex problem solving. </p>
+      <section id="intro">
+        <div class="welcome">
+          <p>Hello, my name is</p>
+          <h1>Khanh Bui</h1>
+          <p id="title">I am a Junior Software Engineer</p>
+        </div>
+        <div class="my-photo">
+          <img src="./assets/images/my-photo.jpg" alt="a picture of myself" />
+        </div>
+      </section>
+      <section id="about-me">
+        <h3>About <span>Me</span></h3>
+        <div class="content">
+          <p>
+            Creative and enthusiastic developer with prior experience in
+            customer service and sales. Team work makes the dream work, so I am
+            here to contribute to drive to the team's success. I have developed
+            & honed my skills with a certificate in full-stack development from
+            Georgia Institute of Technology. Through this experience I have
+            mastered HTML, CSS, JavaScript, Python, SQL, Node.js, Axios . I
+            often find myself to be tenacious, self-driven and enjoy the
+            challenges of complex problem solving.
+          </p>
+        </div>
+      </section>
+      <section id="work">
+        <h3>My <span>Work</span></h3>
+        <div class="projects">
+          <div class="container">
+            <img src="./assets/images/weather.png" alt="random picture" />
+            <div>
+              <a href="https://khanhpbui.github.io/weather-forcast/">
+                Weather Dashboard
+              </a>
             </div>
-
-        </section>
-        <section id="work">
-            <h3>Work</h3>
-            <div class="content">
-                <div class="first-image">
-                    <a href="https://khanhpbui.github.io/weather-forcast/">
-                        <figure>
-                            <img src="https://picsum.photos/id/1037/200/300" alt="random picture">
-                            <figcaption>Weather Dashboard</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                
-                <div class="other-images">
-                    <a href="https://khanhpbui.github.io/password-generator/">
-                        <figure>
-                            <img src="https://picsum.photos/seed/picsum/200/300?grayscale" alt="random picture">
-                            <figcaption>Password Generator</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="other-images">
-                    <a href="https://khanhpbui.github.io/javascript-quiz/">
-                        <figure>
-                            <img src="https://picsum.photos/seed/200/300?grayscale" alt="random picture">
-                            <figcaption>Quiz</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="other-images">
-                    <a href="https://khanhpbui.github.io/day-planner/">
-                        <figure>
-                            <img src="https://picsum.photos/200/300?grayscale" alt="random picture">
-                            <figcaption>Day Planner</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="other-images">
-                    <a href="https://frutaseca.github.io/Give-Manna/">
-                        <figure>
-                            <img src="https://picsum.photos/200/300/?grayscale" alt="random picture">
-                            <figcaption>Give Manna</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="other-images">
-                    <a href="https://stormy-crag-37004.herokuapp.com/">
-                        <figure>
-                            <img src="https://picsum.photos/200/300/?grayscale" alt="random picture">
-                            <figcaption>Muse-sik</figcaption>
-                        </figure>
-                    </a>
-                </div>
+          </div>
+          <div class="container">
+            <img src="./assets/images/pass-gen.png" alt="random picture" />
+            <div>
+              <a href="https://khanhpbui.github.io/password-generator/">
+                Password Generator
+              </a>
             </div>
-        </section>
-        <section id="contact-me">
-            <h3>Contact Me</h3>
-            <div class="content">
-                <ul class="icon">
-                    <li><a href="#"></a><i class='fa fa-phone' style='font-size:48px;color:#fcfcfc'></i></li>
-                    <li><a href="#"><i class="fa fa-envelope" style="font-size:48px;color:#fcfcfc"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github" style="font-size:48px;color:#fcfcfc"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square" style="font-size:48px;color:#fcfcfc"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" style="font-size:48px;color:#fcfcfc"></i></a></li>
-                </ul>
+          </div>
+          <div class="container">
+            <img src="./assets/images/planner.png" alt="random picture" />
+            <div>
+              <a href="https://khanhpbui.github.io/day-planner/">
+                Day Planner
+              </a>
             </div>
-        </section>
-        <section id="resume">
-            <h3>Resume</h3>
-            <div class="content">
-                <p id="resume-click-here">Click here:</p>
-                <a href="#"><i class='fa fa-file' style='font-size:48px;color:#fcfcfc'></i></a>
-            </div>
-
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h3>Contact <span>Me</span></h3>
+        <ul class="icon">
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-phone"
+                style="font-size: 2rem; color: #fcfcfc"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-envelope"
+                style="font-size: 2rem; color: #fcfcfc"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-github"
+                style="font-size: 2rem; color: #fcfcfc"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-facebook-square"
+                style="font-size: 2rem; color: #fcfcfc"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-twitter"
+                style="font-size: 2rem; color: #fcfcfc"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section id="resume">
+        <h3>My <span>Resume</span></h3>
+        <div class="content">
+          <p id="resume-click-here">Click here:</p>
+          <a href="#"
+            ><i class="fa fa-file" style="font-size: 2rem; color: #fcfcfc"></i
+          ></a>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Thank you!</p>
+      <p>&copy Khanh Bui 2022</p>
     </footer>
-
-</body>
-
+  </body>
 </html>
